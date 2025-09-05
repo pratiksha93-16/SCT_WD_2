@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  width: 100vw;
+  height: 100vh;
+  background-color: midnightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-circle {
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+}
+
+#minutes,
+#seconds,
+#tens {
+  font-size: 40px;
+  color: white;
+}
+
+.button-wrapper {
+  width: 250px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#start,
+#stop,
+#reset,
+#lap {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#start:hover {
+  background-color: white;
+  color: black;
+}
+
+#stop:hover {
+  background-color: white;
+  color: black;
+}
+
+#reset:hover {
+  background-color: white;
+  color: black;
+}
+
+#lap:hover {
+  background-color: white;
+  color: black;
+}
+#laps {
+  margin-top: 15px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#laps li {
+  background-color: ghostwhite;
+  margin: 5px auto;
+  padding: 8px 12px;
+  border-radius: 8px;
+  width: 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 23px;
+  font-weight: bolder;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
